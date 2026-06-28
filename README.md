@@ -22,7 +22,6 @@ The project focuses on:
 
 * Object-Oriented Programming (OOP)
 * SQLite Database Integration
-* CRUD Operations
 * Exception Handling
 * Input Validation
 * Clean & Modular Code
