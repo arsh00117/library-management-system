@@ -133,7 +133,6 @@ class Library:
             print(f"Title: {book[1]} | Author: {book[2]} | Status: {status}")
     
     def show_stats(self):
-        """ This show statistics of books. """
         with self.conn:
             total = self.conn.execute("SELECT COUNT(*) FROM BOOKS").fetchone()[0]
             issued = self.conn.execute("SELECT COUNT(*) FROM BOOKS WHERE STATUS = 1").fetchone()[0]
@@ -202,7 +201,7 @@ if __name__ == "__main__":
                 break
 
             else:
-                print("Invalid option. Choose 1-6.")
+                print("Invalid option. Choose 1-7.")
 
     finally:
         library.close_connection()
