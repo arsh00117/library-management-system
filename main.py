@@ -148,7 +148,7 @@ class Library:
 
 
 def menu():
-    print("\n====== LIBRARY MANAGEMENT SYSTEM ======")
+    print("\n====== LIBRARY MANAGEMENT SYSTEM @ By Arsh ======")
     print("1. Show all books")
     print("2. Add book")
     print("3. Issue book")
